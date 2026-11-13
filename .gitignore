@@ -218,3 +218,6 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Custom course resources folder
+Python & Django Web Developer/Resources/
