@@ -1,0 +1,19 @@
+h1{
+    /* Normal co;lor names */
+    color: green;
+}
+
+li{
+    /* RGB color values */
+    color: rgb(255, 97, 0);
+}
+
+p{
+    /* Hexadecimal color values */
+    color: #0895a8;
+}
+
+h4{
+    /* HSL color values */
+    color: hsl(120, 100%, 25%);
+}

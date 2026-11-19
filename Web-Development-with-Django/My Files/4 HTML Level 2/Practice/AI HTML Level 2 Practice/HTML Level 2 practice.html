@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Level 2 Practice</title>
+</head>
+
+<body>
+    <!--Exercise 1 (Part 1–3: HTML Tables & Quiz Practice)-->
+    <h4>Part 1–3: HTML Tables & Quiz Practice</h4>
+    <h1>Player Table</h1>
+    <table border="2">
+        <thead>
+            <th>Player Name</th>
+            <th>Position</th>
+            <th>Matches Played</th>
+            <th>Rating</th>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>John Doe</td>
+                <td>Forward</td>
+                <td>24</td>
+                <td>8.5</td>
+            </tr>
+
+            <tr>
+                <td>Sean Doe</td>
+                <td>Defender</td>
+                <td>29</td>
+                <td>6</td>
+            </tr>
+
+            <tr>
+                <td>Bob Doe</td>
+                <td>Midfielder</td>
+                <td>30</td>
+                <td>7</td>
+            </tr>
+
+            <tr>
+                <td colspan="3"><strong>Average Rating</strong></td>
+                <td><strong>7.5</strong></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <hr>
+    <!--Exercise 2 (Part 4: Form Basics & Input Types)-->
+    <h4>Part 4: Form Basics & Input Types</h4>
+    <form method="get">
+        <label for="fname"> First Name:</label>
+        <input type="text" id="fname" name="fname" placeholder="Enter your first name" required>
+
+        <label for="lname"> Last Name:</label>
+        <input type="text" id="lname" name="lname" placeholder="Enter your last name" required>
+
+        <p></p>
+
+        <label for="email"> Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+        <label for="password"> Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required>
+
+        <p></p>
+
+        <label for="color"> Please Select Team Colors:</label>
+        <input type="color" id="color" name="color" placeholder="Enter your team color" required>
+        <input type="color" id="color" name="color" placeholder="Enter your team color" required>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <hr>
+    <!--Exercise 3 (Part 5: Labels, Actions & Methods)-->
+    <h4>Part 5: Labels, Actions & Methods</h4>
+    <form action="#" method="get">
+        <label for="username">User Name:</label>
+        <input type="text" id="username" name="username" placeholder="Enter your username" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required>
+        <input type="submit" value="Submit">
+    </form>
+
+    <hr>
+    <!--Exercise 4 (Part 6: Advanced Selection Inputs)-->
+    <h4>Part 6: Advanced Selection Inputs</h4>
+    <label for="beginner">Beginner</label>
+    <input type="radio" id="beginner" name="options" value="beginner">
+
+    <label for="intermediate">Intermediate</label>
+    <input type="radio" id="intermediate" name="options" value="intermediate">
+
+    <label for="advanced">Advanced</label>
+    <input type="radio" id="advanced" name="options" value="advanced">
+
+    <hr>
+
+    <h3>Select Your Favorate Programming Langusge</h3>
+    <select name="favlanguage">
+        <option value="option1">Python</option>
+        <option value="option1">HTML</option>
+        <option value="option1">CSS</option>
+        <option value="option1">JAVA</option>
+    </select>
+
+    <h4>Please tell us about yourself</h4>
+    <textarea name="bio" rows="4" cols="50" placeholder="Your BIO"></textarea>
+    <br>
+    <input type="submit" name="Submit">
+    <hr>
+    <!--Exercise 5 (Assessment Strategy: Course Sign-Up Page)-->
+    <h4>Assessment Strategy: Course Sign-Up Page</h4>
+    <h1>Registration</h1>
+
+    <p> Welcome to the Sports Team Management Platform, a web application
+        built to help coaches, managers, and players organize squads, track match schedules,
+        and monitor performance in one place. Sign up below to create your account,
+        select your role, and share your goals as I continue
+        developing this full-stack Python and Django project.</p>
+
+    <form method="get">
+        <label for="fname"> First Name:</label>
+        <input type="text" id="fname" name="fname" placeholder="Enter your first name" required>
+
+        <label for="lname"> Last Name:</label>
+        <input type="text" id="lname" name="lname" placeholder="Enter your last name" required>
+
+        <p></p>
+
+        <label for="email"> Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+        <label for="password"> Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required>
+
+        <p></p>
+
+        <label for="manager">Manager</label>
+        <input type="radio" id="manager" name="type" placeholder="manager">
+
+        <label for="player">Player</label>
+        <input type="radio" id="player" name="type" placeholder="player">
+        <p>Please select your rating</p>
+        <label for="start">Star
+            <select name="star" id="star">
+                <option>5</option>
+                <option>4</option>
+                <option>3</option>
+                <option>2</option>
+                <option>1</option>
+            </select>
+        </label>
+        <br>
+         <textarea name="pgoals" rows="4" cols="50" placeholder="Please enter your goals"></textarea>
+        <br>
+         <input type="submit" name="Submit">
+
+    </form>
+</body>
+
+</html>
