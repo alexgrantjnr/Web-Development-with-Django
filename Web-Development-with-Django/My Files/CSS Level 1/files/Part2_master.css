@@ -1,0 +1,20 @@
+body{
+    background-image: url(space.jpg);
+    backgroun;
+}
+
+div{
+    background-color: blue;
+    border-color: red;
+    border-style: double;
+    border-width: 5px;
+}
+
+p{
+    color: yellow;
+}
+
+span{
+    background-color: green;
+    color: black;
+}

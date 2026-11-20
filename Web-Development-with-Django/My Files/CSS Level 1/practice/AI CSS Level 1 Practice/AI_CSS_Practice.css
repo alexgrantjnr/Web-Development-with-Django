@@ -1,0 +1,58 @@
+h1,
+h2,
+h3 {
+    color: darkgreen;
+}
+
+h4 {
+    color: darkorange;
+}
+
+p {
+    color: navy;
+    text-indent: 5px;
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.Player-Card {
+    background-color: white;
+    border: 4px solid black;
+    width: 150px;
+}
+
+.Player-Card {
+    background-color: lightgreen;
+}
+
+.Player-Card h3 {
+    color: black;
+}
+
+.Player-Card p {
+    color: black;
+}
+
+span {
+    font-weight: bold;
+    color: red;
+}
+
+ol {
+    list-style-type: upper-roman;
+}
+
+ul {
+    background: powderblue;
+    padding: 20px;
+}
+
+ul li {
+    list-style-type: square;
+    background: mistyrose;
+    color: darkblue;
+    margin: 5px;
+}
